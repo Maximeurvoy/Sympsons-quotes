@@ -3,15 +3,17 @@ import './App.css';
 import QuoteCard from './Components/QuoteCard/QuoteCard';
 import Lamp from './Components/Lamp/Lamp'
 import Working from './Components/Working/Working';
+import ButtonCitation from './Components/ButtonCitation/ButtonCitation';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Lamp on />
+      {/* <Lamp on />
       <Lamp />
-      <Working/>
-       <QuoteCard 
+      <Working/> */}
+      <ButtonCitation/>
+       {/* <QuoteCard 
        characterDirection='Right' 
        character='Milhouse Van Houten' 
        image='https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FMilhouseVanHouten.png?1497567513002' 
@@ -25,7 +27,7 @@ function App() {
        characterDirection='Right' 
        quote="I believe the children are the future... Unless we stop them now!" 
        character="Homer Simpson"
-       image="https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939" />
+       image="https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939" /> */}
 
       </header>
     </div>
