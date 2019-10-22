@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
-import QuoteCard from './Components/QuoteCard/QuoteCard';
-import Lamp from './Components/Lamp/Lamp'
-import Working from './Components/Working/Working';
+// import QuoteCard from './Components/QuoteCard/QuoteCard';
+// import Lamp from './Components/Lamp/Lamp'
+// import Working from './Components/Working/Working';
 import ButtonCitation from './Components/ButtonCitation/ButtonCitation';
+import QuoteForm from './Components/QuotesForm/QuotesForm';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <QuoteForm/>
       {/* <Lamp on />
       <Lamp />
       <Working/> */}
