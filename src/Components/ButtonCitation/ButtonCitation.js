@@ -18,15 +18,15 @@ class ButtonCitation extends React.Component{
   } 
 
   citation=()=>{
-    fetch('https://quests.wilders.dev/simpsons-quotes/quotes')
-    .then(result=> result.json())
+    axios('https://quests.wilders.dev/simpsons-quotes/quotes')
+    
     .then((result)=>{
       console.log(result)
       this.setState({
-        quote:result[0].quote,
-        picture:result[0].image,
-        character:result[0].character
-      });
+        quote:result.data[0].quote,
+        picture:result.data[0].image,
+        character:result.data[0].character
+        });
     });
   }
 
